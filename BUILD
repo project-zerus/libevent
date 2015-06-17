@@ -4,6 +4,9 @@ cc_library(
   export_incs = [
     'include',
   ],
+  defs = [
+    'HAVE_CONFIG_H'
+  ],
   incs = [
     'include',
     'compat',

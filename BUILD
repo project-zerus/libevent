@@ -2,6 +2,7 @@ cc_library(
   name = 'libevent',
   warning = 'no',
   export_incs = [
+    '.',
     'include',
   ],
   defs = [
